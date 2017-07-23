@@ -4,7 +4,7 @@
 CREATE DATABASE burger_shop_DB;
 USE burger_shop_DB;
 
-CREATE TABLE cats
+CREATE TABLE burgers
 (
 	id int NOT NULL AUTO_INCREMENT,
 	name varchar(255) NOT NULL,
