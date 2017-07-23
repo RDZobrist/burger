@@ -4,45 +4,45 @@
 <small>Where you can customize a digital sandwhich, order it, and then NOM, NOM, NOM/</small>
 </div>
 </div>
-<!-- <h2>Cats that are not sleepy!</h2>
+<!-- <h2>Burgers waiting to be consumed</h2>
 
 <ul>
-  {{#each cats}}
-    {{#unless this.sleepy}}
+  {{#each burgers}}
+    {{#unless this.consumed}}
       <li>
         {{this.name}}
 
         <form action="/{{this.id}}?_method=PUT" method="POST">
-          <input type="hidden" name="sleepy" value="true">
-          <button type="submit">SLEEP TIME!</button>
+          <input type="hidden" name="consumed" value="true">
+          <button type="submit">Devour Me</button>
         </form>
 
-        {{> cats/delete-cat}}
+        {{> burgers/delete-burger}}
       </li>
     {{/unless}}
   {{/each}}
 </ul>
 
-<h2>Cats that are sleepy!</h2>
+<h2>Inside Your Digital Stomach</h2>
 
 <ul>
   {{#each cats}}
-    {{#if this.sleepy}}
+    {{#if this.consumed}}
       <li>
         {{this.name}}
 
         <form action="/{{this.id}}?_method=PUT" method="POST">
-          <input type="hidden" name="sleepy" value="false">
-          <button type="submit">WAKE UP!</button>
+          <input type="hidden" name="consumed" value="false">
+          <button type="submit">Defecate</button>
         </form>
 
-        {{> cats/delete-cat}}
+        {{> burgers/delete-burger}}
       </li>
     {{/if}}
   {{/each}}
 </ul>
 
-<h2>Add a Cat</h2>
+<h2>Prepare a BURGER</h2>
 <form class="create-update-form" action="/" method="POST">
 
   <div class="form-group">
@@ -51,10 +51,10 @@
   </div>
 
   <div class="form-group">
-    <label for="slee">Sleepy?</label><br>
-    <input type="radio" name="sleepy" value="1" checked> Sleepy!<br>
-    <input type="radio" name="sleepy" value="0"> Awake
+    <label for="slee">Ready to Eat?</label><br>
+    <input type="radio" name="sleepy" value="1" checked> Consumed!<br>
+    <input type="radio" name="sleepy" value="0"> Prepared and Ready to eat!
   </div>
 
-  <button type="submit">Add Cat</button>
+  <button type="submit">Prepare a Burger</button>
 </form> -->
