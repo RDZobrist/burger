@@ -17,19 +17,36 @@
     <link rel="stylesheet" href="/css/style.css" type="text/css">
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- minified jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 </head>
 
 <body>
     <!-- Jumbotron -->
-    
-          <div class="container-fluid text-center">
-               <h1 id="header">Eat-da-Burger</h1>
-               <h4 class="text-center" id="header1">Where you can customize a digital sandwhich, order it, and then...<em>whatever</em>pleases your heart</h4>
-        </div>
-        
-    
+    <div class="container-fluid text-center">
+        <h1 id="header">Eat-da-Burger</h1>
+        <h4 class="text-center" id="header1">Where you can customize a digital sandwhich, order it, and then...<em>whatever</em>pleases your heart</h4>
+    </div>
     {{{ body }}}
+    <script type="text/javascript">
+// get elements 
+    const recycle_da_burger = document.getElementById('recycle-button');
+    const eat_da_burger = document.getElementById('devour-button');
+    const order_da_burger = document.getElementById('order-burger-button');
+
+
+$(recycle_da_burger).on('click', e => {
+	alert('jskjskjskjs');
+});
+
+$(eat_da_burger).on('click', e => {
+	alert('ggggg');
+});
+$(order_da_burger).on('click', e => {
+	alert('akshdgha');
+});
+    </script>
 </body>
 
 </html>
