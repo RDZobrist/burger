@@ -1,3 +1,24 @@
+/*+++++++++++++++++++++++++++*/
+     /* BASIC SETUP */
+/*+++++++++++++++++++++++++++*/
+
+*  {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html  {
+    background-color:#fff;
+    color: #555;
+
+    font-family: 'Lato', 'Arial', 'sans-serif';
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+
+}
+
 /* +++++ start/ BUTTONS ++++++*/
 
 #recycle-button {
@@ -42,9 +63,14 @@ li {
 
 #prep-container,
 #stomach-container {
-    margin: 50px 75px 0px 75px;
+    margin: 20px;
+    margin-bottom: 50px;
     align-content: center;
     background-color: #d8d8c0;
+}
+#prep-container  {
+    margin-right: auto;
+    margin-left: auto;
 }
 
 body {
