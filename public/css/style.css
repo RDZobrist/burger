@@ -93,7 +93,9 @@ body {
     background-position: center;
 }
 
-#order-up-container {
+#order-up-container,
+#prep-food-container,
+#stomach-container {
 
     background-color: #d8d8c0 !important;
     margin: 50px 0px 0px 75px;
